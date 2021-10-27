@@ -11,7 +11,7 @@ def f(x, y):  # canculates general solution
 
 def y(x):  # calcuates y, exact solution
     
-    x = min(4, x)
+    #x = min(4, x)
     return 4/(-3*pow(math.e, 4*x)-1) +x+2 
 
 
